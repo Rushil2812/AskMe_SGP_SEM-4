@@ -1,0 +1,42 @@
+.siderbaropts
+{
+    display: flex;
+    flex-direction: column;
+}
+.siderbaropt
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.siderbaropt:hover
+{
+    background: rgb(211,211,211);
+    border-radius: 5px;
+}
+.siderbaropt>img
+{
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+.sidebaropt>.MuiSvgIcon-root
+{
+    font-size:medium;
+    margin-left: 0px;
+}
+.sidebaropt>p
+{
+    margin-left: 30px;
+    color:gray;
+    font-weight: 400;
+    font-size: 13px;
+}
+.siderbaropt > .text
+{
+    margin-left: 15px;
+    color:gray;
+    font-weight: 400;
+    font-size: 13px;
+}
